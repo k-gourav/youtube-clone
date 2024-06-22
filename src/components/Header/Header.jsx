@@ -1,5 +1,6 @@
 import search from "../../assets/icons/search.svg"
 import user from "../../assets/icons/user.svg"
+import notif from "../../assets/icons/notif.svg"
 import "./Header.css"
 const Header = () => {
     return(
@@ -9,7 +10,7 @@ const Header = () => {
         <button><img src={search} alt="search-icon" /></button>
         </div>
         <div className="notif-profile">
-            <button className="notif"><img src={search} alt="notif-button" /></button>
+            <button className="notif"><img src={notif} alt="notif-button" /></button>
             <button className="profile"><img src={user} alt="user-profile-image" /></button>
         </div>
         </div>

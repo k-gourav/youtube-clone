@@ -6,7 +6,7 @@ const VideoPreview = () => {
   return (
     <>
       <div className="video-categories">
-        {videoCategories.map(() => {
+        {videoCategories.map((item) => {
           <div className="video-category"></div>
 })}
       </div>
