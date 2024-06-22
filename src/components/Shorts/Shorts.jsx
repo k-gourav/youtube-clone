@@ -1,8 +1,8 @@
 import React from "react";
 const Shorts = () => {
     return (
-        <div>About</div>
+        <div>About me</div>
     )
 }
 
-export default About;
+export default Shorts;
