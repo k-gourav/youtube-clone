@@ -1,9 +1,14 @@
-import React from "react";
+import SideBar from "../SideBar/SideBar"
+import VideoContainer from "../VideoContainer/VideoContainer"
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>Hello how are you?</div>
-    );
+    <div className="home-container">
+        <SideBar />
+        <VideoContainer />
+    </div>
+    )
 }
 
 export default Home;

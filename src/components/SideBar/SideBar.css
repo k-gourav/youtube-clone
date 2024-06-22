@@ -1,0 +1,42 @@
+.side-navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    gap: 1.8rem;
+    width: 15vw;
+}
+img{
+    display: block;
+}
+.toggle-bar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem;
+}
+.toggle-btn, .logo-name{
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+}
+.logo-name{
+    font-size: 1rem;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.nav-links div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+    padding: 0.5rem;
+}
+.nav-links div:hover{
+    background-color: #4b4848;
+    color: #fff;
+}

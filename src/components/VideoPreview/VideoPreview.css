@@ -1,0 +1,21 @@
+.video-categories{
+    display: flex;
+    gap: 10px;
+}
+.video-category{
+    border: 1px solid;
+    width: 60px;
+    height: 30px;
+}
+
+.video-list{
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.video-content{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
